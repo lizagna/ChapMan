@@ -12,6 +12,7 @@
 		1471FB4523C1A29F00A16206 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471FB4423C1A29F00A16206 /* HomeViewController.swift */; };
 		1485C0D923C1DDFB004E9F2F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485C0D823C1DDFB004E9F2F /* Utilities.swift */; };
 		14E9AA7423C1F3DC00E65EAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */; };
+		14E9AA7D23C6DE5000E65EAF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9AA7C23C6DE5000E65EAF /* MenuViewController.swift */; };
 		14FAE37C23BB2195007648A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37B23BB2195007648A4 /* AppDelegate.swift */; };
 		14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37D23BB2195007648A4 /* SceneDelegate.swift */; };
 		14FAE38023BB2195007648A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37F23BB2195007648A4 /* ViewController.swift */; };
@@ -43,6 +44,7 @@
 		1471FB4423C1A29F00A16206 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1485C0D823C1DDFB004E9F2F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		14E9AA7C23C6DE5000E65EAF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		14FAE37823BB2195007648A4 /* ChapMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChapMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE37B23BB2195007648A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14FAE37D23BB2195007648A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				1471FB4023C1A26F00A16206 /* LoginViewController.swift */,
 				1471FB4223C1A29300A16206 /* SignUpViewController.swift */,
 				1471FB4423C1A29F00A16206 /* HomeViewController.swift */,
+				14E9AA7C23C6DE5000E65EAF /* MenuViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */,
 				1471FB4323C1A29300A16206 /* SignUpViewController.swift in Sources */,
 				1471FB4523C1A29F00A16206 /* HomeViewController.swift in Sources */,
+				14E9AA7D23C6DE5000E65EAF /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
