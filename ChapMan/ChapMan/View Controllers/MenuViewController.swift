@@ -8,8 +8,20 @@
 
 import UIKit
 
+enum MenuType: Int {
+    case home
+    case about
+    case join
+    case contact
+    case QA
+    case links 
+    
+}
+
 class MenuViewController: UITableViewController {
 
+    var didTapMenuType: ((MenuType) -> Void)?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,14 +29,11 @@ class MenuViewController: UITableViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let MenuType = MenuType(rawValue: indexPath.row ) else { return }
+        dismiss(animated: true) { [weak self] in
+            print("Dismissing: \(MenuType)")
+            self?.didTapMenuType?(MenuType)
+        }
     }
-    */
-
 }
