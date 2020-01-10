@@ -18,12 +18,17 @@ class HomeViewController: UIViewController {
     
     let transition = SlideInTransition()
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
         setUpElements()
+        
+        view.backgroundColor = .white
+        
     }
     
     func setUpElements() {
@@ -47,6 +52,12 @@ class HomeViewController: UIViewController {
         let title = String(describing: menuType).capitalized
         self.title = title
     }
+    
+    @IBAction func competitiveEventsButtonTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.fbla-pbl.org/fbla/competitive-events/")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
     
 }
 

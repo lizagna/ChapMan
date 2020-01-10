@@ -10,8 +10,7 @@ import UIKit
 
 enum MenuType: Int {
     case home
-    case about
-    case join
+    case about 
     case contact
     case QA
     case links 
