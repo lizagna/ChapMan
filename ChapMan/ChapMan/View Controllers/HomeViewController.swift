@@ -57,6 +57,10 @@ class HomeViewController: UIViewController {
         UIApplication.shared.open(URL(string: "https://www.fbla-pbl.org/fbla/competitive-events/")! as URL, options: [:], completionHandler: nil)
     }
     
+    @IBAction func meetingCheckInButtonTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeeHcTTuE6UPEzg97SVnXHcybbCJqcSOsEVYl2K2k45k5r_zQ/viewform")! as URL, options: [:])
+    }
+    
     
     
 }
