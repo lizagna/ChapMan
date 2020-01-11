@@ -7,16 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		141F22A223C724ED00E0F359 /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141F22A123C724ED00E0F359 /* SlideInTransition.swift */; };
 		141F22A423C7814500E0F359 /* AboutFBLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */; };
-		141F22A623C8110C00E0F359 /* ContainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141F22A523C8110C00E0F359 /* ContainerController.swift */; };
-		141F22AA23C83D9900E0F359 /* OfficersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141F22A923C83D9900E0F359 /* OfficersViewController.swift */; };
-		1471FB4123C1A26F00A16206 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471FB4023C1A26F00A16206 /* LoginViewController.swift */; };
-		1471FB4323C1A29300A16206 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471FB4223C1A29300A16206 /* SignUpViewController.swift */; };
+		145BD4D323C99CE400910072 /* JoinFBLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */; };
 		1471FB4523C1A29F00A16206 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471FB4423C1A29F00A16206 /* HomeViewController.swift */; };
 		1485C0D923C1DDFB004E9F2F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485C0D823C1DDFB004E9F2F /* Utilities.swift */; };
+		14A1C7CC23C9D10E00AC1ACD /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A1C7CB23C9D10E00AC1ACD /* ContactUsViewController.swift */; };
+		14A97E7823C9D047001B2199 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A97E7723C9D047001B2199 /* LinksViewController.swift */; };
 		14E9AA7423C1F3DC00E65EAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */; };
-		14E9AA7D23C6DE5000E65EAF /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9AA7C23C6DE5000E65EAF /* MenuViewController.swift */; };
 		14FAE37C23BB2195007648A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37B23BB2195007648A4 /* AppDelegate.swift */; };
 		14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37D23BB2195007648A4 /* SceneDelegate.swift */; };
 		14FAE38023BB2195007648A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37F23BB2195007648A4 /* ViewController.swift */; };
@@ -43,16 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		141F22A123C724ED00E0F359 /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
 		141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFBLAViewController.swift; sourceTree = "<group>"; };
-		141F22A523C8110C00E0F359 /* ContainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerController.swift; sourceTree = "<group>"; };
-		141F22A923C83D9900E0F359 /* OfficersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficersViewController.swift; sourceTree = "<group>"; };
-		1471FB4023C1A26F00A16206 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		1471FB4223C1A29300A16206 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinFBLAViewController.swift; sourceTree = "<group>"; };
 		1471FB4423C1A29F00A16206 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1485C0D823C1DDFB004E9F2F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		14A1C7CB23C9D10E00AC1ACD /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		14A97E7723C9D047001B2199 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
 		14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		14E9AA7C23C6DE5000E65EAF /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		14FAE37823BB2195007648A4 /* ChapMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChapMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE37B23BB2195007648A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14FAE37D23BB2195007648A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,14 +88,11 @@
 			isa = PBXGroup;
 			children = (
 				14FAE37F23BB2195007648A4 /* ViewController.swift */,
-				1471FB4023C1A26F00A16206 /* LoginViewController.swift */,
-				1471FB4223C1A29300A16206 /* SignUpViewController.swift */,
 				1471FB4423C1A29F00A16206 /* HomeViewController.swift */,
-				141F22A523C8110C00E0F359 /* ContainerController.swift */,
-				14E9AA7C23C6DE5000E65EAF /* MenuViewController.swift */,
-				141F22A123C724ED00E0F359 /* SlideInTransition.swift */,
 				141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */,
-				141F22A923C83D9900E0F359 /* OfficersViewController.swift */,
+				145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */,
+				14A97E7723C9D047001B2199 /* LinksViewController.swift */,
+				14A1C7CB23C9D10E00AC1ACD /* ContactUsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -280,18 +271,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141F22A223C724ED00E0F359 /* SlideInTransition.swift in Sources */,
-				1471FB4123C1A26F00A16206 /* LoginViewController.swift in Sources */,
-				141F22AA23C83D9900E0F359 /* OfficersViewController.swift in Sources */,
 				14FAE38023BB2195007648A4 /* ViewController.swift in Sources */,
 				141F22A423C7814500E0F359 /* AboutFBLAViewController.swift in Sources */,
 				1485C0D923C1DDFB004E9F2F /* Utilities.swift in Sources */,
+				145BD4D323C99CE400910072 /* JoinFBLAViewController.swift in Sources */,
 				14FAE37C23BB2195007648A4 /* AppDelegate.swift in Sources */,
 				14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */,
-				1471FB4323C1A29300A16206 /* SignUpViewController.swift in Sources */,
+				14A1C7CC23C9D10E00AC1ACD /* ContactUsViewController.swift in Sources */,
 				1471FB4523C1A29F00A16206 /* HomeViewController.swift in Sources */,
-				141F22A623C8110C00E0F359 /* ContainerController.swift in Sources */,
-				14E9AA7D23C6DE5000E65EAF /* MenuViewController.swift in Sources */,
+				14A97E7823C9D047001B2199 /* LinksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

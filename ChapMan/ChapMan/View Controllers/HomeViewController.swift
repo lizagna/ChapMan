@@ -16,8 +16,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var exploreButton: UIButton!
     @IBOutlet weak var welcomeLabel: UILabel!
     
-    let transition = SlideInTransition()
-    
+    let pdfTitle = "Tomorrows Business Leaders"
     
     
     override func viewDidLoad() {
@@ -38,41 +37,37 @@ class HomeViewController: UIViewController {
         Utilities.styleFilledButton(exploreButton)
     }
     
-    @IBAction func didTapMenu(_ sender: UIBarButtonItem) {
-        guard let menuViewController = storyboard?.instantiateViewController(identifier: "MenuViewController") as? MenuViewController else { return }
-        menuViewController.didTapMenuType = { MenuType in
-            self.transitionToNew(MenuType)
-        }
-        menuViewController.modalPresentationStyle = .overCurrentContext
-        menuViewController.transitioningDelegate = self
-        present(menuViewController, animated: true)
+    //checks whether a button is tapped or not and determins button behavior
+    
+    @IBAction func competitionTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://www.fbla-pbl.org/fbla/competitive-events")! as URL, options: [:], completionHandler: nil)
     }
     
-    func transitionToNew(_ menuType: MenuType) {
-        let title = String(describing: menuType).capitalized
-        self.title = title
+    @IBAction func competitionSignUpTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLScBmDe_3F4yGdTQ0xPbxOJkTCRT0-x5nr1jE16rB28u-po_dg/viewform")! as URL, options: [:], completionHandler: nil)
     }
     
-    @IBAction func competitiveEventsButtonTapped(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://www.fbla-pbl.org/fbla/competitive-events/")! as URL, options: [:], completionHandler: nil)
+
+    @IBAction func checkInButtonTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeeHcTTuE6UPEzg97SVnXHcybbCJqcSOsEVYl2K2k45k5r_zQ/viewform")! as URL, options: [:], completionHandler: nil)
     }
     
-    @IBAction func meetingCheckInButtonTapped(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSeeHcTTuE6UPEzg97SVnXHcybbCJqcSOsEVYl2K2k45k5r_zQ/viewform")! as URL, options: [:])
+    @IBAction func reportABugButtonTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSdpwpFVjogQIRI0m1FiokINjc-1KCM9WRNgMYU5b9rEUHbT1w/viewform")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    
+    @IBAction func calendarButtonTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://calendar.google.com/calendar?cid=bGc3aGNoOGUzNXNpa3JzNWVwMzlwcW5mcjhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ")! as URL, options: [:], completionHandler: nil)
+    }
+    
+    @IBAction func exploreTapped(_ sender: Any) {
+        UIApplication.shared.open(URL(string: "https://drive.google.com/file/d/1625Q1R1RcispOzD81PE2XnRuKLdr2aYU/view")! as URL, options: [:], completionHandler: nil)
     }
     
     
     
 }
 
-extension HomeViewController: UIViewControllerTransitioningDelegate {
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        transition.isPresenting = true
-        return transition
-    }
-    
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        transition.isPresenting = false 
-        return transition
-    }
-}
+
+
