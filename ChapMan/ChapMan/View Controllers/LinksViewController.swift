@@ -16,6 +16,8 @@ class LinksViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
+    
+    //checks whether a button is tapped or not and determins button behavior
 
     @IBAction func nationalWebTapped(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://www.fbla-pbl.org")! as URL, options: [:], completionHandler: nil)

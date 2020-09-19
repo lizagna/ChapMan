@@ -26,9 +26,13 @@ class HomeViewController: UIViewController {
         
         setUpElements()
         
+        // sets backgtound color to white 
+        
         view.backgroundColor = .white
         
     }
+    
+    //determines how buttons will look
     
     func setUpElements() {
         Utilities.styleFilledButton(calendarButton)

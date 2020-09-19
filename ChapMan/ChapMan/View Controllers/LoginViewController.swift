@@ -35,6 +35,7 @@ class LoginViewController: UIViewController {
         Utilities.styleTextField(firstNameTextField)
         Utilities.styleTextField(lastNameTextField)
         Utilities.styleFilledButton(loginButton)
+        
     }
 
     /*

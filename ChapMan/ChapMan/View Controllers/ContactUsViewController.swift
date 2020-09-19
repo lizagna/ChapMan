@@ -15,6 +15,8 @@ class ContactUsViewController: UIViewController {
 
     }
     
+    //checks whether a button is tapped or not and determins button behavior
+    
     @IBAction func instagramTapped(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://www.instagram.com/aliefkerrfbla/")! as URL, options: [:], completionHandler: nil)
     }

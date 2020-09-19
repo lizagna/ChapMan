@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1417285D2516B31B007EE112 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417285C2516B31B007EE112 /* LoginViewController.swift */; };
+		1417285F2516B327007EE112 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417285E2516B327007EE112 /* SignUpViewController.swift */; };
 		141F22A423C7814500E0F359 /* AboutFBLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */; };
 		145BD4D323C99CE400910072 /* JoinFBLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */; };
 		1471FB4523C1A29F00A16206 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471FB4423C1A29F00A16206 /* HomeViewController.swift */; };
@@ -16,7 +18,6 @@
 		14E9AA7423C1F3DC00E65EAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */; };
 		14FAE37C23BB2195007648A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37B23BB2195007648A4 /* AppDelegate.swift */; };
 		14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37D23BB2195007648A4 /* SceneDelegate.swift */; };
-		14FAE38023BB2195007648A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37F23BB2195007648A4 /* ViewController.swift */; };
 		14FAE38323BB2195007648A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE38123BB2195007648A4 /* Main.storyboard */; };
 		14FAE38523BB2196007648A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE38423BB2196007648A4 /* Assets.xcassets */; };
 		14FAE38823BB2196007648A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE38623BB2196007648A4 /* LaunchScreen.storyboard */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1417285C2516B31B007EE112 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1417285E2516B327007EE112 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFBLAViewController.swift; sourceTree = "<group>"; };
 		145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinFBLAViewController.swift; sourceTree = "<group>"; };
 		1471FB4423C1A29F00A16206 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +53,6 @@
 		14FAE37823BB2195007648A4 /* ChapMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChapMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE37B23BB2195007648A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14FAE37D23BB2195007648A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		14FAE37F23BB2195007648A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		14FAE38223BB2195007648A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		14FAE38423BB2196007648A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14FAE38723BB2196007648A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,8 +89,9 @@
 		1471FB4623C1A2CE00A16206 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				14FAE37F23BB2195007648A4 /* ViewController.swift */,
 				1471FB4423C1A29F00A16206 /* HomeViewController.swift */,
+				1417285E2516B327007EE112 /* SignUpViewController.swift */,
+				1417285C2516B31B007EE112 /* LoginViewController.swift */,
 				141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */,
 				145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */,
 				14A97E7723C9D047001B2199 /* LinksViewController.swift */,
@@ -271,10 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14FAE38023BB2195007648A4 /* ViewController.swift in Sources */,
+				1417285D2516B31B007EE112 /* LoginViewController.swift in Sources */,
 				141F22A423C7814500E0F359 /* AboutFBLAViewController.swift in Sources */,
 				1485C0D923C1DDFB004E9F2F /* Utilities.swift in Sources */,
 				145BD4D323C99CE400910072 /* JoinFBLAViewController.swift in Sources */,
+				1417285F2516B327007EE112 /* SignUpViewController.swift in Sources */,
 				14FAE37C23BB2195007648A4 /* AppDelegate.swift in Sources */,
 				14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */,
 				14A1C7CC23C9D10E00AC1ACD /* ContactUsViewController.swift in Sources */,
@@ -450,7 +454,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHKQYFXVR5;
 				INFOPLIST_FILE = ChapMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -458,6 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Elizabeth-Luu.ChapMan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -467,7 +474,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BHKQYFXVR5;
 				INFOPLIST_FILE = ChapMan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -475,6 +484,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Elizabeth-Luu.ChapMan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -16,6 +16,8 @@ class JoinFBLAViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //checks whether a button is tapped or not and determins button behavior
+
     @IBAction func registrationButtonTapped(_ sender: Any) {
         UIApplication.shared.open(URL(string: "https://docs.google.com/forms/d/e/1FAIpQLSceiIURS1li2ndi3tAJdqS8F6ZOmFkTbR4yonWFwdBgwjy9fQ/viewform")! as URL, options: [:], completionHandler: nil)
     }
