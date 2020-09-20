@@ -30,10 +30,10 @@ class LoginViewController: UIViewController {
         errorLabel.alpha = 0
         
         // Style the elements
-        Utilities.styleTextField(emailTextField)
-        Utilities.styleTextField(passwordTextField)
         Utilities.styleFilledButton(loginButton)
         
+        // Hides password entry
+        passwordTextField.isSecureTextEntry = true
     }
     @IBAction func loginTapped(_ sender: Any) {
         // Validate the fields
@@ -50,7 +50,7 @@ class LoginViewController: UIViewController {
             Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
                 if error != nil {
                     // Couldnt's sign in
-                    self.showError("Incorrent email or password")
+                    self.showError("Incorrent email or password or user does not exist")
                 } else {
                     self.transitionToHome()
                 }

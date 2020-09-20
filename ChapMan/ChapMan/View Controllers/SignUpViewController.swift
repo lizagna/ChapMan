@@ -33,12 +33,12 @@ class SignUpViewController: UIViewController {
     func setUpElements() {
         //Hide error label
         errorLabel.alpha = 0
+        
         // Style system elements
-        Utilities.styleTextField(firstNameTextField)
-        Utilities.styleTextField(lastNameTextField)
-        Utilities.styleTextField(emailTextField)
-        Utilities.styleTextField(passwordTextField)
         Utilities.styleFilledButton(signUpButton)
+        
+        // Hides password entry
+        passwordTextField.isSecureTextEntry = true
     }
 
     // Check fields and validate that data is correct
