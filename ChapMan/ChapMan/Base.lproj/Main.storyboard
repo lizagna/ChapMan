@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1IM-I3-oAV">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1IM-I3-oAV">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -143,7 +145,7 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="XDm-74-SCG" secondAttribute="trailing" constant="41" id="09t-J5-z18"/>
                                             <constraint firstAttribute="trailing" secondItem="zfb-GE-Set" secondAttribute="trailing" constant="41" id="1ZU-Ic-rTt"/>
@@ -218,14 +220,14 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="N1M-Fb-P0V"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="ysG-Gb-YGB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="dEo-KL-C0f" firstAttribute="leading" secondItem="ysG-Gb-YGB" secondAttribute="leading" id="N2s-0i-eOr"/>
                             <constraint firstItem="dEo-KL-C0f" firstAttribute="top" secondItem="ysG-Gb-YGB" secondAttribute="top" id="WRA-7g-xNc"/>
                             <constraint firstItem="ysG-Gb-YGB" firstAttribute="trailing" secondItem="dEo-KL-C0f" secondAttribute="trailing" id="d44-aL-efA"/>
                             <constraint firstItem="ysG-Gb-YGB" firstAttribute="bottom" secondItem="dEo-KL-C0f" secondAttribute="bottom" id="gUY-H9-B2b"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ysG-Gb-YGB"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Home" id="5a9-XN-Z83"/>
@@ -276,7 +278,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VVo-ID-RaC">
                                                     <rect key="frame" x="16" y="53" width="398" height="18"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="yz0-Ka-vG5"/>
                                                     </constraints>
@@ -315,7 +317,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DIB-Dc-7wT">
                                                     <rect key="frame" x="16" y="53" width="398" height="18"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="Dje-7c-1U6"/>
                                                     </constraints>
@@ -354,7 +356,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tuM-Uw-SOy">
                                                     <rect key="frame" x="16" y="53" width="398" height="18"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="DnV-vL-D6v"/>
                                                     </constraints>
@@ -393,7 +395,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9FO-rB-X2b">
                                                     <rect key="frame" x="16" y="53" width="398" height="18"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="c0V-ZY-jgK"/>
                                                     </constraints>
@@ -432,7 +434,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M18-Lz-Kkk">
                                                     <rect key="frame" x="16" y="53" width="398" height="18"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="wTc-vX-E1O"/>
                                                     </constraints>
@@ -471,7 +473,7 @@
                                                 </label>
                                                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K5j-dk-OqF">
                                                     <rect key="frame" x="16" y="53" width="398" height="18"/>
-                                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="2" id="jMx-8f-RrT"/>
                                                     </constraints>
@@ -519,17 +521,17 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SNW-3D-BZS">
                                                 <rect key="frame" x="51" y="8" width="313" height="630"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">What is FBLA?   FBLA stands for Future Business Leaders of America. It is an organization that prides itself on educating and preparing students for the business field and business careers. Through FBLA, students get to experience leadership and networking opportunities with not only peers but also real life business leaders.     Divisions:   - FBLA-Middle Level: for middle, intermediate, or junior high students.
 - FBLA: for high school students.
 - FBLA-PBL (Phi Beta Lambda): for college/postsecondary students.
 - Profession Division (PD): for FBLA alumni and working profressionals.   FBLA Pledge  I solemnly promise to uphold the aims and responsibilities of Future Business Leaders of America-Phi Beta Lambda and, as an active member, I shall strive to develop the qualities necessary in becoming a responsible business leader.</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -544,7 +546,8 @@
                                 <viewLayoutGuide key="frameLayoutGuide" id="eEW-Dz-miA"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Xg9-tI-T0u"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Xg9-tI-T0u" firstAttribute="trailing" secondItem="Ryf-pb-pmy" secondAttribute="trailing" id="52T-SL-9m3"/>
                             <constraint firstItem="Ryf-pb-pmy" firstAttribute="top" secondItem="Xg9-tI-T0u" secondAttribute="top" id="LV4-UA-0Xt"/>
@@ -552,7 +555,6 @@
                             <constraint firstItem="Ryf-pb-pmy" firstAttribute="centerX" secondItem="mWf-X2-Pvf" secondAttribute="centerX" id="fyl-UV-8MF"/>
                             <constraint firstItem="Xg9-tI-T0u" firstAttribute="bottom" secondItem="Ryf-pb-pmy" secondAttribute="bottom" id="fzS-ET-70T"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Xg9-tI-T0u"/>
                     </view>
                     <navigationItem key="navigationItem" title="About FBLA" id="6bE-Zh-htz"/>
                     <size key="freeformSize" width="414" height="800"/>
@@ -570,47 +572,54 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8X4-Ry-BYW">
-                                <rect key="frame" x="40" y="84" width="334" height="200.5"/>
+                                <rect key="frame" x="40" y="84" width="334" height="230.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CVi-le-uPZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I4v-hw-j68">
-                                        <rect key="frame" x="0.0" y="60" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="70" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zx-gu-WYi">
-                                        <rect key="frame" x="0.0" y="120" width="334" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7zx-gu-WYi">
+                                        <rect key="frame" x="0.0" y="140" width="334" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="8Hk-Wd-ylM"/>
+                                            <constraint firstAttribute="height" constant="50" id="8Hk-Wd-ylM"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="HQg-j8-SXF"/>
                                         </constraints>
                                         <state key="normal" title="Login"/>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bm7-M3-MaE">
-                                        <rect key="frame" x="0.0" y="180" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="210" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="7zx-gu-WYi" firstAttribute="height" secondItem="CVi-le-uPZ" secondAttribute="height" id="SBu-Zy-MCZ"/>
-                                    <constraint firstItem="I4v-hw-j68" firstAttribute="height" secondItem="CVi-le-uPZ" secondAttribute="height" id="mJC-yS-w04"/>
+                                    <constraint firstItem="7zx-gu-WYi" firstAttribute="height" secondItem="CVi-le-uPZ" secondAttribute="height" id="95e-kT-yLA"/>
+                                    <constraint firstItem="I4v-hw-j68" firstAttribute="height" secondItem="CVi-le-uPZ" secondAttribute="height" id="wU3-Ya-8Dn"/>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="8X4-Ry-BYW" firstAttribute="top" secondItem="hQt-GT-UTb" secondAttribute="top" constant="40" id="Gnf-9r-FNK"/>
-                            <constraint firstItem="hQt-GT-UTb" firstAttribute="trailing" secondItem="8X4-Ry-BYW" secondAttribute="trailing" constant="40" id="KNS-JO-H41"/>
-                            <constraint firstItem="8X4-Ry-BYW" firstAttribute="leading" secondItem="hQt-GT-UTb" secondAttribute="leading" constant="40" id="xNh-kQ-5WF"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="hQt-GT-UTb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hQt-GT-UTb" firstAttribute="trailing" secondItem="8X4-Ry-BYW" secondAttribute="trailing" constant="40" id="6Fz-P5-I0A"/>
+                            <constraint firstItem="8X4-Ry-BYW" firstAttribute="top" secondItem="hQt-GT-UTb" secondAttribute="top" constant="40" id="QWv-bM-RAc"/>
+                            <constraint firstItem="8X4-Ry-BYW" firstAttribute="leading" secondItem="hQt-GT-UTb" secondAttribute="leading" constant="40" id="yw3-kd-YZm"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="SRZ-Wk-V9Q"/>
+                    <connections>
+                        <outlet property="errorLabel" destination="Bm7-M3-MaE" id="KS0-a3-3SC"/>
+                        <outlet property="firstNameTextField" destination="CVi-le-uPZ" id="YHx-fI-f4R"/>
+                        <outlet property="lastNameTextField" destination="I4v-hw-j68" id="1VJ-id-OeO"/>
+                        <outlet property="loginButton" destination="7zx-gu-WYi" id="jz6-PO-Qfv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u41-Br-7eH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -642,8 +651,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.052351790263297678" green="0.17096016053818955" blue="0.32532635558238354" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="KRi-KJ-RQZ"/>
+                        <color key="backgroundColor" red="0.052351790263297678" green="0.17096016053818955" blue="0.32532635558238354" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lwg-qh-hrx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -661,15 +670,15 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Wc4-sB-xNh">
                                 <rect key="frame" x="41" y="124" width="332" height="610"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <string key="text">What Does FBLA Do?  FBLA teaches and prepares students for career paths in the field of business or related to business.  What Do I Get Out of FBLA?  Participating in FBLA will expose students to leadership and networking opportunities. Along with that, FBLA offers many experiences for students to broaden their knowledge in the field of busineDo I Need A Business Class To Join FBLA?ss as well as chances to advance further into their career path such as scholarships.  Do I Need A Business Class To Join FBLA?  No, students do not need to take a business class to join FBLA. However, if students plan on advancing to State competition then they must have completed or be enrolled in a business class for that school year.   How Many Times Does FBLA Compete?  FBLA competes in a total of 3 competitions; district competition, state competition, and national competition.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="rRc-v8-Fb8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Q&amp;A" id="3jT-cz-VI3"/>
                 </viewController>
@@ -700,76 +709,76 @@
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="lvg-JC-AMb">
                                                 <rect key="frame" x="179" y="102" width="209" height="137"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">PRESIDENT  Steven Phung
 Email: Instagram: @sphungus 
 "Hey Kerr FBLA! I’m looking forward to being your president for the 2019/2020 school year! We have lots planned for y’all this year and I’m excited to meet each and every one of you!”</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W48-Yx-wLG">
                                                 <rect key="frame" x="179" y="322" width="209" height="204"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">VICE PRESIDENT
 Thao Le
 Email: 
 Instagram: @lptthao
 “I’m thrilled to serve as your 2019/2020 Vice President this year! I’m currently a junior and have been in this amazing club since my freshemen year. My goal for this year is to have excellent communication with the Entrepreneurship students, our officer team, out sponsor, Mrs. Curry and always have our snacks STOCKED.”</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gSg-nv-O90">
                                                 <rect key="frame" x="179" y="578" width="209" height="165"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">HISTORIAN
 Anh Le
 Email: 
 Instagram: @trashcanh
 “I’m a junior with many aspirations, including the one where I strive to make our year amaxing. I’m excited to start new experiences with my fellow members and also learn more alongside them.”</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1JG-97-ES8">
                                                 <rect key="frame" x="175" y="807" width="209" height="152"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">PARLIAMENTARIAN
 Jenna Nguyen
 Email: 
 Instagram: @jenna.nguyen
 “Hi guys! I’m so excited to serve as your parliamentarian for the 2019-2020 school year! I have many goals for our chapter this year. Including growing our FBLA family and increasing activity!”</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HEg-JH-bac">
                                                 <rect key="frame" x="179" y="1044" width="209" height="178"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">SECRETARY
 Adrian Chu
 Email: 
 Instagram: @chuuuros
 “I’m extremely excited to be serving as your secretary for the 2019-2020 school year! This year, my goal is to get as many members involved with our community! I’m so excited to get to know our new members and reconnect with our current members!”</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6TB-XQ-9oe">
                                                 <rect key="frame" x="179" y="1293" width="209" height="183"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <string key="text">TREASUER
 Kim Nguyen
 Email: 
 Instagram: @kimstapioca
 “I am currently a junior and I am delighted to be serving as your 2019/2020 FBLA Treasurer! My goal this year is to be more involved in fundraising/workshops and get as many students involved in scholarships for trips and events.”</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
@@ -798,7 +807,7 @@ Instagram: @kimstapioca
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="xqf-n8-ama" firstAttribute="top" secondItem="1Jk-qL-3QB" secondAttribute="top" constant="28" id="BxV-DQ-lsD"/>
                                             <constraint firstItem="xqf-n8-ama" firstAttribute="centerX" secondItem="1Jk-qL-3QB" secondAttribute="centerX" id="Pu5-Zi-iqz"/>
@@ -819,14 +828,14 @@ Instagram: @kimstapioca
                                 <viewLayoutGuide key="frameLayoutGuide" id="8dO-gp-yoR"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MWx-Vj-WNs"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="MWx-Vj-WNs" firstAttribute="trailing" secondItem="4Zf-Vb-qpF" secondAttribute="trailing" id="SjO-n4-rET"/>
                             <constraint firstItem="MWx-Vj-WNs" firstAttribute="bottom" secondItem="4Zf-Vb-qpF" secondAttribute="bottom" id="Zey-0R-E1A"/>
                             <constraint firstItem="4Zf-Vb-qpF" firstAttribute="leading" secondItem="MWx-Vj-WNs" secondAttribute="leading" id="vZf-hK-tjM"/>
                             <constraint firstItem="4Zf-Vb-qpF" firstAttribute="top" secondItem="MWx-Vj-WNs" secondAttribute="top" id="wk7-NC-oMO"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="MWx-Vj-WNs"/>
                     </view>
                     <navigationItem key="navigationItem" title="Officers" id="pGc-Gl-ieb"/>
                     <size key="freeformSize" width="414" height="1550"/>
@@ -872,8 +881,8 @@ Instagram: @kimstapioca
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.0086986543610000008" green="0.1675151587" blue="0.33727246519999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <viewLayoutGuide key="safeArea" id="mYA-e0-t2p"/>
+                        <color key="backgroundColor" red="0.0086986543610000008" green="0.1675151587" blue="0.33727246519999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="Cod-dg-qoB"/>
                 </viewController>
@@ -890,39 +899,42 @@ Instagram: @kimstapioca
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="yWL-NY-fnn">
-                                <rect key="frame" x="40" y="84" width="334" height="320.5"/>
+                                <rect key="frame" x="40" y="84" width="334" height="370.5"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vm7-5N-JPH">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1xY-mF-aTq">
-                                        <rect key="frame" x="0.0" y="60" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="70" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BX3-RB-gVK">
-                                        <rect key="frame" x="0.0" y="120" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="140" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VXh-lc-gpN">
-                                        <rect key="frame" x="0.0" y="180" width="334" height="40"/>
+                                        <rect key="frame" x="0.0" y="210" width="334" height="50"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woc-mI-8ih">
-                                        <rect key="frame" x="0.0" y="240" width="334" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woc-mI-8ih">
+                                        <rect key="frame" x="0.0" y="280" width="334" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="xxK-Fd-UyC"/>
+                                            <constraint firstAttribute="height" constant="50" id="xxK-Fd-UyC"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
+                                        <connections>
+                                            <action selector="signUpTapped:" destination="a2G-Vc-ezQ" eventType="touchUpInside" id="QNF-ni-VS1"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="maa-Vp-VTx">
-                                        <rect key="frame" x="0.0" y="300" width="334" height="20.5"/>
+                                        <rect key="frame" x="0.0" y="350" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="textColor" systemColor="systemRedColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -934,15 +946,23 @@ Instagram: @kimstapioca
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="yWL-NY-fnn" firstAttribute="leading" secondItem="qMt-Xi-uXL" secondAttribute="leading" constant="40" id="gue-iF-1Qe"/>
-                            <constraint firstItem="yWL-NY-fnn" firstAttribute="top" secondItem="qMt-Xi-uXL" secondAttribute="top" constant="40" id="p5X-RK-283"/>
-                            <constraint firstItem="qMt-Xi-uXL" firstAttribute="trailing" secondItem="yWL-NY-fnn" secondAttribute="trailing" constant="40" id="xxN-Qc-9JE"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="qMt-Xi-uXL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yWL-NY-fnn" firstAttribute="top" secondItem="qMt-Xi-uXL" secondAttribute="top" constant="40" id="HTQ-eg-1O0"/>
+                            <constraint firstItem="qMt-Xi-uXL" firstAttribute="trailing" secondItem="yWL-NY-fnn" secondAttribute="trailing" constant="40" id="Hhu-a1-J3q"/>
+                            <constraint firstItem="yWL-NY-fnn" firstAttribute="leading" secondItem="qMt-Xi-uXL" secondAttribute="leading" constant="40" id="M8E-A1-J2E"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IKQ-fl-x8K"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="BX3-RB-gVK" id="6cO-LU-hbT"/>
+                        <outlet property="errorLabel" destination="maa-Vp-VTx" id="PcP-gD-wXH"/>
+                        <outlet property="firstNameTextField" destination="vm7-5N-JPH" id="U6s-ps-5h9"/>
+                        <outlet property="lastNameTextField" destination="1xY-mF-aTq" id="5b5-bi-CKR"/>
+                        <outlet property="passwordTextField" destination="VXh-lc-gpN" id="C4w-yJ-tD1"/>
+                        <outlet property="signUpButton" destination="woc-mI-8ih" id="aeg-mO-VNl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cKs-40-Zqi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -951,26 +971,26 @@ Instagram: @kimstapioca
         <!--View Controller-->
         <scene sceneID="cJw-OK-REC">
             <objects>
-                <viewController id="hIj-X3-QIC" sceneMemberID="viewController">
+                <viewController id="hIj-X3-QIC" customClass="ViewController" customModule="ChapMan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qvr-FM-nBT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="4E9-pS-zVz">
-                                <rect key="frame" x="40" y="732" width="334" height="90"/>
+                                <rect key="frame" x="40" y="702" width="334" height="120"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAg-Kn-o9b">
-                                        <rect key="frame" x="0.0" y="0.0" width="334" height="40"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XAg-Kn-o9b">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="50"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="40" id="MN5-Cv-5iM"/>
+                                            <constraint firstAttribute="height" constant="50" id="iSw-F1-InI"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up"/>
                                         <connections>
                                             <segue destination="a2G-Vc-ezQ" kind="show" id="OoB-QV-Woq"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBQ-ax-tuz">
-                                        <rect key="frame" x="0.0" y="60" width="334" height="30"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBQ-ax-tuz">
+                                        <rect key="frame" x="0.0" y="70" width="334" height="50"/>
                                         <state key="normal" title="Login"/>
                                         <connections>
                                             <segue destination="xgG-lO-gAc" kind="show" id="Mf8-Sk-Yc4"/>
@@ -978,19 +998,23 @@ Instagram: @kimstapioca
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="bBQ-ax-tuz" firstAttribute="height" secondItem="XAg-Kn-o9b" secondAttribute="height" multiplier="0.75" id="06w-gm-b2W"/>
+                                    <constraint firstItem="bBQ-ax-tuz" firstAttribute="height" secondItem="XAg-Kn-o9b" secondAttribute="height" id="q5x-Wa-pLV"/>
                                 </constraints>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="7dv-fJ-Na4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="7dv-fJ-Na4" firstAttribute="bottom" secondItem="4E9-pS-zVz" secondAttribute="bottom" constant="40" id="1lA-gM-TVG"/>
                             <constraint firstItem="7dv-fJ-Na4" firstAttribute="trailing" secondItem="4E9-pS-zVz" secondAttribute="trailing" constant="40" id="QOD-Mb-mUL"/>
                             <constraint firstItem="4E9-pS-zVz" firstAttribute="leading" secondItem="7dv-fJ-Na4" secondAttribute="leading" constant="40" id="xOZ-OG-LFu"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="7dv-fJ-Na4"/>
                     </view>
                     <navigationItem key="navigationItem" id="NjY-Cj-diO"/>
+                    <connections>
+                        <outlet property="loginButton" destination="bBQ-ax-tuz" id="Mdj-UJ-XaS"/>
+                        <outlet property="signUpButton" destination="XAg-Kn-o9b" id="pJG-zg-wRK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="23h-as-y9p" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1053,8 +1077,8 @@ Instagram: @kimstapioca
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="wdz-jX-Qp3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Weblinks" id="Uzv-u6-dlA"/>
                 </viewController>
@@ -1116,8 +1140,8 @@ Instagram: @kimstapioca
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Pc3-hf-hFr"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Contact Us" id="nPu-05-laU"/>
                 </viewController>
@@ -1140,7 +1164,7 @@ Instagram: @kimstapioca
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pFL-SD-VRC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1106" y="115"/>
+            <point key="canvasLocation" x="1042" y="115"/>
         </scene>
     </scenes>
     <resources>
@@ -1174,5 +1198,14 @@ Instagram: @kimstapioca
         <image name="iconfinder_1_Instagram_colored_svg_1_5296765 1" width="476" height="372"/>
         <image name="iconfinder_1_Twitter3_colored_svg_5296516 1" width="476" height="372"/>
         <image name="officers button" width="640" height="564"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

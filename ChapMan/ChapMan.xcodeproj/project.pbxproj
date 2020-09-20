@@ -3,24 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06338C6A286D840352F457D2 /* Pods_ChapMan_ChapManUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9123569A90B6D65DA4D47011 /* Pods_ChapMan_ChapManUITests.framework */; };
 		1417285D2516B31B007EE112 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417285C2516B31B007EE112 /* LoginViewController.swift */; };
 		1417285F2516B327007EE112 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1417285E2516B327007EE112 /* SignUpViewController.swift */; };
+		141728612516BEAE007EE112 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141728602516BEAE007EE112 /* ViewController.swift */; };
 		141F22A423C7814500E0F359 /* AboutFBLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */; };
+		14583EBE2516D267002F0215 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14583EBD2516D267002F0215 /* GoogleService-Info.plist */; };
 		145BD4D323C99CE400910072 /* JoinFBLAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */; };
 		1471FB4523C1A29F00A16206 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1471FB4423C1A29F00A16206 /* HomeViewController.swift */; };
 		1485C0D923C1DDFB004E9F2F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485C0D823C1DDFB004E9F2F /* Utilities.swift */; };
 		14A1C7CC23C9D10E00AC1ACD /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A1C7CB23C9D10E00AC1ACD /* ContactUsViewController.swift */; };
 		14A97E7823C9D047001B2199 /* LinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A97E7723C9D047001B2199 /* LinksViewController.swift */; };
-		14E9AA7423C1F3DC00E65EAF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */; };
 		14FAE37C23BB2195007648A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37B23BB2195007648A4 /* AppDelegate.swift */; };
 		14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14FAE37D23BB2195007648A4 /* SceneDelegate.swift */; };
 		14FAE38323BB2195007648A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE38123BB2195007648A4 /* Main.storyboard */; };
 		14FAE38523BB2196007648A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE38423BB2196007648A4 /* Assets.xcassets */; };
 		14FAE38823BB2196007648A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14FAE38623BB2196007648A4 /* LaunchScreen.storyboard */; };
+		3166FC2BF16999AA36907560 /* Pods_ChapMan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71812A07D08D003EEAE48842 /* Pods_ChapMan.framework */; };
+		981F0B3947E9C70222C9286C /* Pods_ChapManTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70620AD4B40C80031A1625A9 /* Pods_ChapManTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,13 +47,14 @@
 /* Begin PBXFileReference section */
 		1417285C2516B31B007EE112 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		1417285E2516B327007EE112 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		141728602516BEAE007EE112 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutFBLAViewController.swift; sourceTree = "<group>"; };
+		14583EBD2516D267002F0215 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinFBLAViewController.swift; sourceTree = "<group>"; };
 		1471FB4423C1A29F00A16206 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1485C0D823C1DDFB004E9F2F /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		14A1C7CB23C9D10E00AC1ACD /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		14A97E7723C9D047001B2199 /* LinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksViewController.swift; sourceTree = "<group>"; };
-		14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		14FAE37823BB2195007648A4 /* ChapMan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChapMan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE37B23BB2195007648A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14FAE37D23BB2195007648A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +64,15 @@
 		14FAE38923BB2196007648A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14FAE38E23BB2196007648A4 /* ChapManTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChapManTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14FAE39923BB2196007648A4 /* ChapManUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChapManUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		193E4AFA4A62EE5493DD399A /* Pods-ChapManTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChapManTests.release.xcconfig"; path = "Target Support Files/Pods-ChapManTests/Pods-ChapManTests.release.xcconfig"; sourceTree = "<group>"; };
+		220C91EF20F4100C690BFD5F /* Pods-ChapManTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChapManTests.debug.xcconfig"; path = "Target Support Files/Pods-ChapManTests/Pods-ChapManTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70620AD4B40C80031A1625A9 /* Pods_ChapManTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChapManTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71812A07D08D003EEAE48842 /* Pods_ChapMan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChapMan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9123569A90B6D65DA4D47011 /* Pods_ChapMan_ChapManUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChapMan_ChapManUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0476080812F46484CF72288 /* Pods-ChapMan-ChapManUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChapMan-ChapManUITests.debug.xcconfig"; path = "Target Support Files/Pods-ChapMan-ChapManUITests/Pods-ChapMan-ChapManUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C444B36E4E18D99180BC7043 /* Pods-ChapMan-ChapManUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChapMan-ChapManUITests.release.xcconfig"; path = "Target Support Files/Pods-ChapMan-ChapManUITests/Pods-ChapMan-ChapManUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE8D9EBD1CE603DAE2D60567 /* Pods-ChapMan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChapMan.release.xcconfig"; path = "Target Support Files/Pods-ChapMan/Pods-ChapMan.release.xcconfig"; sourceTree = "<group>"; };
+		CF2251F1ADFB5B562217413E /* Pods-ChapMan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChapMan.debug.xcconfig"; path = "Target Support Files/Pods-ChapMan/Pods-ChapMan.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3166FC2BF16999AA36907560 /* Pods_ChapMan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				981F0B3947E9C70222C9286C /* Pods_ChapManTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06338C6A286D840352F457D2 /* Pods_ChapMan_ChapManUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +109,7 @@
 				1471FB4423C1A29F00A16206 /* HomeViewController.swift */,
 				1417285E2516B327007EE112 /* SignUpViewController.swift */,
 				1417285C2516B31B007EE112 /* LoginViewController.swift */,
+				141728602516BEAE007EE112 /* ViewController.swift */,
 				141F22A323C7814500E0F359 /* AboutFBLAViewController.swift */,
 				145BD4D223C99CE400910072 /* JoinFBLAViewController.swift */,
 				14A97E7723C9D047001B2199 /* LinksViewController.swift */,
@@ -113,6 +131,8 @@
 			children = (
 				14FAE37A23BB2195007648A4 /* ChapMan */,
 				14FAE37923BB2195007648A4 /* Products */,
+				632E011F31FA5FC0F9D0EF78 /* Pods */,
+				C9429F53462CA456E0FCB00D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,10 +156,33 @@
 				14FAE38123BB2195007648A4 /* Main.storyboard */,
 				14FAE38423BB2196007648A4 /* Assets.xcassets */,
 				14FAE38623BB2196007648A4 /* LaunchScreen.storyboard */,
-				14E9AA7323C1F3DC00E65EAF /* GoogleService-Info.plist */,
+				14583EBD2516D267002F0215 /* GoogleService-Info.plist */,
 				14FAE38923BB2196007648A4 /* Info.plist */,
 			);
 			path = ChapMan;
+			sourceTree = "<group>";
+		};
+		632E011F31FA5FC0F9D0EF78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF2251F1ADFB5B562217413E /* Pods-ChapMan.debug.xcconfig */,
+				CE8D9EBD1CE603DAE2D60567 /* Pods-ChapMan.release.xcconfig */,
+				A0476080812F46484CF72288 /* Pods-ChapMan-ChapManUITests.debug.xcconfig */,
+				C444B36E4E18D99180BC7043 /* Pods-ChapMan-ChapManUITests.release.xcconfig */,
+				220C91EF20F4100C690BFD5F /* Pods-ChapManTests.debug.xcconfig */,
+				193E4AFA4A62EE5493DD399A /* Pods-ChapManTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9429F53462CA456E0FCB00D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71812A07D08D003EEAE48842 /* Pods_ChapMan.framework */,
+				9123569A90B6D65DA4D47011 /* Pods_ChapMan_ChapManUITests.framework */,
+				70620AD4B40C80031A1625A9 /* Pods_ChapManTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14FAE3A223BB2196007648A4 /* Build configuration list for PBXNativeTarget "ChapMan" */;
 			buildPhases = (
+				39BF5B68D504F739578A7C87 /* [CP] Check Pods Manifest.lock */,
 				14FAE37423BB2195007648A4 /* Sources */,
 				14FAE37523BB2195007648A4 /* Frameworks */,
 				14FAE37623BB2195007648A4 /* Resources */,
+				0F51B115E1FFD7B052CAD5C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14FAE3A523BB2196007648A4 /* Build configuration list for PBXNativeTarget "ChapManTests" */;
 			buildPhases = (
+				4D4BC1BF348CB78ED8080630 /* [CP] Check Pods Manifest.lock */,
 				14FAE38A23BB2196007648A4 /* Sources */,
 				14FAE38B23BB2196007648A4 /* Frameworks */,
 				14FAE38C23BB2196007648A4 /* Resources */,
@@ -184,9 +230,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 14FAE3A823BB2196007648A4 /* Build configuration list for PBXNativeTarget "ChapManUITests" */;
 			buildPhases = (
+				ADBBF13278C79F19303377F9 /* [CP] Check Pods Manifest.lock */,
 				14FAE39523BB2196007648A4 /* Sources */,
 				14FAE39623BB2196007648A4 /* Frameworks */,
 				14FAE39723BB2196007648A4 /* Resources */,
+				4DB17E9DD382C36EFB0BDAEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,7 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				14FAE38823BB2196007648A4 /* LaunchScreen.storyboard in Resources */,
-				14E9AA7423C1F3DC00E65EAF /* GoogleService-Info.plist in Resources */,
+				14583EBE2516D267002F0215 /* GoogleService-Info.plist in Resources */,
 				14FAE38523BB2196007648A4 /* Assets.xcassets in Resources */,
 				14FAE38323BB2195007648A4 /* Main.storyboard in Resources */,
 			);
@@ -269,6 +317,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F51B115E1FFD7B052CAD5C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChapMan/Pods-ChapMan-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChapMan/Pods-ChapMan-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChapMan/Pods-ChapMan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39BF5B68D504F739578A7C87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChapMan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D4BC1BF348CB78ED8080630 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChapManTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DB17E9DD382C36EFB0BDAEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChapMan-ChapManUITests/Pods-ChapMan-ChapManUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChapMan-ChapManUITests/Pods-ChapMan-ChapManUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChapMan-ChapManUITests/Pods-ChapMan-ChapManUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADBBF13278C79F19303377F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChapMan-ChapManUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		14FAE37423BB2195007648A4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -278,6 +429,7 @@
 				141F22A423C7814500E0F359 /* AboutFBLAViewController.swift in Sources */,
 				1485C0D923C1DDFB004E9F2F /* Utilities.swift in Sources */,
 				145BD4D323C99CE400910072 /* JoinFBLAViewController.swift in Sources */,
+				141728612516BEAE007EE112 /* ViewController.swift in Sources */,
 				1417285F2516B327007EE112 /* SignUpViewController.swift in Sources */,
 				14FAE37C23BB2195007648A4 /* AppDelegate.swift in Sources */,
 				14FAE37E23BB2195007648A4 /* SceneDelegate.swift in Sources */,
@@ -452,6 +604,7 @@
 		};
 		14FAE3A323BB2196007648A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF2251F1ADFB5B562217413E /* Pods-ChapMan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -472,6 +625,7 @@
 		};
 		14FAE3A423BB2196007648A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE8D9EBD1CE603DAE2D60567 /* Pods-ChapMan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -492,6 +646,7 @@
 		};
 		14FAE3A623BB2196007648A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 220C91EF20F4100C690BFD5F /* Pods-ChapManTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +668,7 @@
 		};
 		14FAE3A723BB2196007648A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193E4AFA4A62EE5493DD399A /* Pods-ChapManTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +690,7 @@
 		};
 		14FAE3A923BB2196007648A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0476080812F46484CF72288 /* Pods-ChapMan-ChapManUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +710,7 @@
 		};
 		14FAE3AA23BB2196007648A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C444B36E4E18D99180BC7043 /* Pods-ChapMan-ChapManUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

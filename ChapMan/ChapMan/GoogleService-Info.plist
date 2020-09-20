@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:232170584396:ios:33841dd675d51c3b9937e9</string>
+	<string>1:232170584396:ios:7f324bc251be8eef9937e9</string>
 	<key>DATABASE_URL</key>
 	<string>https://chapman-3db8c.firebaseio.com</string>
 </dict>

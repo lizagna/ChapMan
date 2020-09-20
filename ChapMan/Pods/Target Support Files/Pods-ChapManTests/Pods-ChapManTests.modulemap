@@ -1,0 +1,6 @@
+framework module Pods_ChapManTests {
+  umbrella header "Pods-ChapManTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

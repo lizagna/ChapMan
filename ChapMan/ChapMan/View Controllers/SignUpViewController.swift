@@ -52,8 +52,28 @@ class SignUpViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    // Check fields and validate that data is correct
+    // If everything is correct, methods returns nil
+    // Otherwise retuns error message
+    func validateFields() -> String? {
+        // Check all fields filled in
+        if  firstNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" || lastNameTextField.text?.trimmingCharacters(in: .whitespacesAndNewlines) == "" ||
+            emailTextField.text?.trimmingCharacters(in: .whitespaces) == "" ||
+                passwordTextField.text?.trimmingCharacters(in: .whitespaces) == "" {
+            return "Please fill in all fields"
+        }
+        
+        
+        return nil
+    }
 
     @IBAction func signUpTapped(_ sender: Any) {
+        // Validate the fields
+        
+        // Create the user
+        
+        // Transition to homescreen
     }
     
     
