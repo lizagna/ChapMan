@@ -619,10 +619,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="SRZ-Wk-V9Q"/>
                     <connections>
+                        <outlet property="emailTextField" destination="CVi-le-uPZ" id="aBy-tE-V7M"/>
                         <outlet property="errorLabel" destination="Bm7-M3-MaE" id="KS0-a3-3SC"/>
-                        <outlet property="firstNameTextField" destination="CVi-le-uPZ" id="YHx-fI-f4R"/>
-                        <outlet property="lastNameTextField" destination="I4v-hw-j68" id="1VJ-id-OeO"/>
                         <outlet property="loginButton" destination="7zx-gu-WYi" id="jz6-PO-Qfv"/>
+                        <outlet property="passwordTextField" destination="I4v-hw-j68" id="ltb-Gr-29U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u41-Br-7eH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
