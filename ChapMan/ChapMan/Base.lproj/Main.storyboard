@@ -12,7 +12,7 @@
         <!--Home-->
         <scene sceneID="hoU-7l-oBk">
             <objects>
-                <viewController id="zpu-zZ-LRT" customClass="HomeViewController" customModule="ChapMan" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="zpu-zZ-LRT" customClass="HomeViewController" customModule="ChapMan" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="c31-Lf-pT6" customClass="Home">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -591,6 +591,9 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="HQg-j8-SXF"/>
                                         </constraints>
                                         <state key="normal" title="Login"/>
+                                        <connections>
+                                            <action selector="loginTapped:" destination="xgG-lO-gAc" eventType="touchUpInside" id="Twf-8N-KTC"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bm7-M3-MaE">
                                         <rect key="frame" x="0.0" y="210" width="334" height="20.5"/>

@@ -9,6 +9,8 @@ target 'ChapMan' do
 
 	pod 'Firebase/Analytics'
 	pod 'Firebase/Auth'
+	pod 'Firebase/Core'
+	pod 'Firebase/Firestore'
 
   target 'ChapManTests' do
     inherit! :search_paths
